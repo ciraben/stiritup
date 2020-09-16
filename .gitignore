@@ -1,12 +1,13 @@
 # Jekyll stuff
-_site
+#_site
 .sass-cache
-.jekyll-cache
+#.jekyll-cache
 .jekyll-metadata
 
 # Vi Stuff
-*.swp
+#*.swp
 
 # Other
-info.txt
+#info.txt
 recipes.*
+temp
