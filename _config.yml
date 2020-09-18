@@ -1,12 +1,13 @@
 # Site settings
-title:
-email:
+title: stir it up
+author: Natalie Justin
+email: stiritupfoods@yahoo.com
+phone: +1-778-432-0133
+facebook_url: https://www.facebook.com/Stir-it-Up-133468816703389/
 description: > # this means to ignore newlines until "baseurl:"
+  Stir it up is a locally owned Authentic Caribbean Soul Food restaurant. Originally from St. Lucia, Chef/Owner Natalie Justin's menu features fresh ingredients, amazing spices and exotic influences.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
-
-twitter_username:
-github_username:
+url: "https://ciraben.github.io/stiritup/" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
