@@ -60,6 +60,19 @@ p {
     color: rgba(white, .7);
 }
 
+.text-white {
+    color: #fff !important;
+}
+.text-black {
+    color: $black !important;
+}
+.text-blue {
+    color: $theme-blue !important;
+}
+.text-yellow {
+    color: $theme-yellow !important;
+}
+
 section {
     padding: 100px 0;
 }
@@ -182,6 +195,8 @@ header {
                 font-weight: 300;
                 color: rgba(white, .7);
                 font-size: 16px;
+                text-transform: lowercase;
+                letter-spacing: 1.5em;
                 margin-bottom: 50px;
             }
         }
@@ -226,6 +241,44 @@ header {
         margin-bottom: 0;
     }
 }
+
+.stiritup-menu {
+    color: rgba(white, 0.7);
+    p, br, hr {
+        line-height: 2em;
+    }
+    p {
+        letter-spacing: 0.2em;
+    }
+    h1 {
+        letter-spacing: 0.1em;
+    }
+    .row:first-child {
+        .col {
+            margin-top: 50px;
+        }
+    }
+    .row:last-child {
+        .col {
+            margin-bottom: 0;
+        }
+    }
+    .col {
+        margin-bottom: 50px;
+        padding: auto;
+        .content {
+            display: block;
+            height: 100%;
+            margin: auto;
+        }
+        img {
+            display: block;
+            margin: auto;
+            max-width: 100%;
+        }
+    }
+}
+
 
 .portfolio-box {
     position: relative;
