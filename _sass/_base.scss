@@ -64,7 +64,7 @@ p {
     color: #fff !important;
 }
 .text-black {
-    color: $black !important;
+    color: $theme-black !important;
 }
 .text-blue {
     color: $theme-blue !important;
@@ -129,12 +129,21 @@ aside {
     @media (min-width: 768px) {
         background-color: transparent;
         border-color: rgba(white, .3);
-        .navbar-header .navbar-brand {
+        .navbar-header {
             color: rgba(white, .7);
             &:hover,
             &:focus {
                 color: white;
             }
+        .navbar-brand {
+            color: rgba(white, .7);
+            &:hover,
+            &:focus {
+                background: linear-gradient(0deg, rgba(255,80,0,1) 20%, rgba(220,160,50,1) 60%);
+                -webkit-text-fill-color: transparent;
+                -webkit-background-clip: text;
+            }
+        }
         }
         .nav > li > a,
         .nav > li > a:focus {
