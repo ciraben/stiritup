@@ -11,9 +11,13 @@
 
 // $spacing-unit:     30px;
 
-// $text-color:       #111;
-// $background-color: #fdfdfd;
+$text-color: #f0be4b;
+$background-color: #222;
 // $brand-color:      #2a7ae2;
+
+// button background
+$button-background-img: "/img/stiritup-button.png";
+// $button-background: linear-gradient(173deg, rgba(255,80,0,1) 0%, rgba(220,160,50,1) 100%);
 
 // $grey-color:       #828282;
 // $grey-color-light: lighten($grey-color, 40%);
@@ -34,8 +38,13 @@
 // }
 
 // variables.less
-$theme-primary: #F05F40;
-$theme-dark: #222;
+
+$theme-primary: #ff7300;
+$theme-dark: #999;
+// for st lucia subthemes
+$theme-blue: #32c8ff;
+$theme-yellow: #f0be4b;
+$theme-black: #000;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import

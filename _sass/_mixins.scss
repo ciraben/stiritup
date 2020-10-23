@@ -55,6 +55,50 @@
 	}
 }
 
+@mixin button-stiritup($color, $background, $border, $image)
+{
+	color: $color;
+	background-image: url($image);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-color: $border;
+	@include transition-all;
+
+	&:hover,
+	&:focus,
+	&.focus,
+	&:active,
+	&.active,
+	.open > .dropdown-toggle & {
+		color: $color;
+		background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4)), url($image);
+    		border-color: black;
+		border-width: 10px;
+	}
+	&:active,
+	&.active,
+	.open > .dropdown-toggle & {
+		background-image: none;
+	}
+	&.disabled,
+	&[disabled],
+	fieldset[disabled] & {
+		&,
+		&:hover,
+		&:focus,
+		&.focus,
+		&:active,
+		&.active {
+			background-image: url($image);
+			border-color: $border;
+		}
+	}
+
+	.badge {
+		color: $background;
+		background-color: $color;
+	}
+}
 @mixin sans-serif-font()
 {
 	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
